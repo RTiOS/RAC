@@ -17,6 +17,7 @@
 		2C1FA32021185FB20004E995 /* RACUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1FA31F21185FB20004E995 /* RACUITests.m */; };
 		2C919016211974C8001F067B /* DelegateTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C919015211974C8001F067B /* DelegateTestController.m */; };
 		2C9190192119883D001F067B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9190182119883D001F067B /* Person.m */; };
+		2CD19BB0211D66C6000EC16C /* Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD19BAF211D66C6000EC16C /* Caculator.m */; };
 		7E884F00ECDA1A01A8222101 /* Pods_RAC_RACTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFCE0879597C32CE72F05563 /* Pods_RAC_RACTests.framework */; };
 		D0476A0C58C22D4A882B9D20 /* Pods_RACUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EF2A4E514C47CD6E91CA5AF /* Pods_RACUITests.framework */; };
 		F585D448057ED9AC6DDC1AAC /* Pods_RAC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E08984245D7D5B95C55D7D0D /* Pods_RAC.framework */; };
@@ -62,6 +63,8 @@
 		2C919015211974C8001F067B /* DelegateTestController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateTestController.m; sourceTree = "<group>"; };
 		2C9190172119883D001F067B /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		2C9190182119883D001F067B /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2CD19BAE211D66C6000EC16C /* Caculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Caculator.h; sourceTree = "<group>"; };
+		2CD19BAF211D66C6000EC16C /* Caculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Caculator.m; sourceTree = "<group>"; };
 		6EF2A4E514C47CD6E91CA5AF /* Pods_RACUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RACUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA8C4262E2DB79951EA34D1 /* Pods-RACUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RACUITests/Pods-RACUITests.release.xcconfig"; sourceTree = "<group>"; };
 		82387C9A16C79647A564D768 /* Pods-RAC-RACTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAC-RACTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAC-RACTests/Pods-RAC-RACTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				2C9190182119883D001F067B /* Person.m */,
 				2C919014211974C8001F067B /* DelegateTestController.h */,
 				2C919015211974C8001F067B /* DelegateTestController.m */,
+				2CD19BAE211D66C6000EC16C /* Caculator.h */,
+				2CD19BAF211D66C6000EC16C /* Caculator.m */,
 				2C1FA30121185FB10004E995 /* Main.storyboard */,
 				2C1FA30421185FB20004E995 /* Assets.xcassets */,
 				2C1FA30621185FB20004E995 /* LaunchScreen.storyboard */,
@@ -464,6 +469,7 @@
 			files = (
 				2C1FA30021185FB10004E995 /* ViewController.m in Sources */,
 				2C1FA30B21185FB20004E995 /* main.m in Sources */,
+				2CD19BB0211D66C6000EC16C /* Caculator.m in Sources */,
 				2C9190192119883D001F067B /* Person.m in Sources */,
 				2C919016211974C8001F067B /* DelegateTestController.m in Sources */,
 				2C1FA2FD21185FB10004E995 /* AppDelegate.m in Sources */,
