@@ -6,47 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.8456089"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "-touchesBegan:withEvent:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC/ViewController.m"
-            timestampString = "555576230.846037"
+            timestampString = "555854535.157299"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
-            landmarkName = "ViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.846288"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
+            startingLineNumber = "213"
+            endingLineNumber = "213"
             landmarkName = "-dictionaryToModel"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,29 +26,14 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC/ViewController.m"
-            timestampString = "555576230.846524"
+            timestampString = "555854535.157672"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
-            landmarkName = "-dictionaryToModel"
+            startingLineNumber = "253"
+            endingLineNumber = "253"
+            landmarkName = "-commandTest1"
             landmarkType = "7">
             <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController commandTest1]"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.895645"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "168"
-                  endingLineNumber = "168"
-                  offsetFromSymbolStart = "16">
-               </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
@@ -89,218 +42,41 @@
                   moduleName = "RAC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.8999929"
+                  timestampString = "555854535.187611"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "170"
-                  endingLineNumber = "170"
+                  startingLineNumber = "253"
+                  endingLineNumber = "253"
                   offsetFromSymbolStart = "48">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.8467571"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
-            landmarkName = "-commandTest1"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.846987"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "180"
-            endingLineNumber = "180"
-            landmarkName = "-commandTest1"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.847299"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "181"
-            endingLineNumber = "181"
-            landmarkName = "-commandTest1"
-            landmarkType = "7">
-            <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController commandTest1]"
+                  symbolName = "__30-[ViewController commandTest1]_block_invoke_2"
                   moduleName = "RAC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.918241"
+                  timestampString = "555854535.191044"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "181"
-                  endingLineNumber = "181"
-                  offsetFromSymbolStart = "136">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__30-[ViewController commandTest1]_block_invoke.130"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.920313"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "182"
-                  endingLineNumber = "182"
-                  offsetFromSymbolStart = "51">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.847538"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "182"
-            endingLineNumber = "182"
-            landmarkName = "-commandTest1"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.8477629"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "188"
-            endingLineNumber = "188"
-            landmarkName = "-commandTest1"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController commandTest2]"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.935271"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "188"
-                  endingLineNumber = "188"
+                  startingLineNumber = "253"
+                  endingLineNumber = "253"
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__30-[ViewController commandTest2]_block_invoke"
+                  symbolName = "__destroy_helper_block_.126"
                   moduleName = "RAC"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.937542"
+                  timestampString = "555854535.194401"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "190"
-                  endingLineNumber = "190"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.8479871"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "190"
-            endingLineNumber = "190"
-            landmarkName = "-commandTest1"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__30-[ViewController commandTest2]_block_invoke"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.94475"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "190"
-                  endingLineNumber = "190"
-                  offsetFromSymbolStart = "48">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__30-[ViewController commandTest2]_block_invoke_2"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.9480259"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "190"
-                  endingLineNumber = "190"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__destroy_helper_block_.138"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.951332"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "190"
-                  endingLineNumber = "190"
+                  startingLineNumber = "253"
+                  endingLineNumber = "253"
                   offsetFromSymbolStart = "16">
                </Location>
             </Locations>
@@ -313,12 +89,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC/ViewController.m"
-            timestampString = "555576230.8482521"
+            timestampString = "555854535.157921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "192"
-            endingLineNumber = "192"
-            landmarkName = "-commandTest2"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "-commandTest1"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -329,108 +105,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC/ViewController.m"
-            timestampString = "555576230.84849"
+            timestampString = "555854535.158159"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "200"
-            endingLineNumber = "200"
-            landmarkName = "-commandTest2"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController commandTest2]"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.9666899"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "200"
-                  endingLineNumber = "200"
-                  offsetFromSymbolStart = "91">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__30-[ViewController commandTest2]_block_invoke.142"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.9687001"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "201"
-                  endingLineNumber = "201"
-                  offsetFromSymbolStart = "51">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.848721"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
-            landmarkName = "-commandTest2"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__30-[ViewController commandTest2]_block_invoke.142"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.975039"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "201"
-                  endingLineNumber = "201"
-                  offsetFromSymbolStart = "51">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__30-[ViewController commandTest2]_block_invoke_2.145"
-                  moduleName = "RAC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yan/Desktop/rac%20example/RAC/RAC/ViewController.m"
-                  timestampString = "555576230.977944"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "202"
-                  endingLineNumber = "202"
-                  offsetFromSymbolStart = "51">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC/ViewController.m"
-            timestampString = "555576230.848947"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "202"
-            endingLineNumber = "202"
-            landmarkName = "-commandTest2"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "-commandTest1"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
