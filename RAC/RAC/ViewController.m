@@ -126,7 +126,10 @@
 //    [self commandTest4];
 //    [self multicastConnectionTest];
     
-    [self bindTest];
+//    [self bindTest];
+    [self flattenMapTest];
+//    [self mapTest];
+//    [self concatTest];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -499,5 +502,66 @@
     
 }
 
+- (void)flattenMapTest {
+    
+//    RACSubject *subject = [RACSubject subject];
+//
+//    RACSignal *bindSignal = [subject flattenMap:^__kindof RACSignal * _Nullable(id  _Nullable value) {
+//
+//        NSMutableArray *newArr = [NSMutableArray array];
+//        [value enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//            NSString *str = [NSString stringWithFormat:@"---%@",obj];
+//            [newArr addObject:str];
+//        }];
+//        return [RACReturnSignal return:newArr.copy];
+//    }];
+//
+//    [bindSignal subscribeNext:^(id  _Nullable x) {
+//        NSLog(@"%@",x);
+//    }];
+//    [subject sendNext:@[@"111",@"222"]];
+    
+}
+
+
+- (void)mapTest {
+    
+    RACSubject *subject = [RACSubject subject];
+    
+    RACSignal *bindSignal = [subject map:^id _Nullable(NSArray *value) {
+        
+        NSMutableArray *newArr = [NSMutableArray array];
+        [value enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NSString *str = [NSString stringWithFormat:@"---%@",obj];
+            [newArr addObject:str];
+        }];
+        return newArr;
+    }];
+    [bindSignal subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
+    [subject sendNext:@[@"111",@"222"]];
+}
+
+- (void)concatTest {
+    
+    RACSignal *aSignal = [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+        [subscriber sendNext:@"aSubject"];
+        [subscriber sendCompleted];
+        return nil;
+    }];
+    RACSignal *bSignal = [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+        [subscriber sendNext:@"bSubject"];
+        [subscriber sendCompleted];
+        return nil;
+    }];
+    
+    RACSignal *concatSingal = [bSignal concat:aSignal];
+    [concatSingal subscribeNext:^(id  _Nullable x) {
+        NSLog(@"%@",x);
+    }];
+    
+    // 结果 先打印bSubject 后打印aSubject
+}
 
 @end
